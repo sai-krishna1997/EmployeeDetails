@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form th:action="@{/register}" th:object="${user}" method="post">
+<br>
+
+EMPID:
+<br>
+<input type="text" name="ID">
+<br>
+FirstName:
+<br>
+<input type="text" name="FirstName">
+<br>
+LastName:
+<br>
+<input type="text" name="LastName">
+<br>
+Email_ID:
+<br>
+<input type="text" name="EmailID">
+<br>
+PhoneNumber:
+<br>
+<input type="text" name="PhoneNumber">
+<br>
+DoJ:
+<br>
+<input type="text" name="DoJ">
+<br>
+Salary:
+<br>
+<input type="text" name="Salary">
+<br>
+
+<input type="submit">
+</form>
+
+
+
+</body>
+</html>
